@@ -17,7 +17,7 @@ RUN go get toga/blueprint
 RUN go install toga/blueprint
 
 # Run the outyet command by default when the container starts.
-CMD sh ./bin/blueprint
+CMD ./bin/blueprint
 # Document that the service listens on port 8080.
 EXPOSE 8080
 
